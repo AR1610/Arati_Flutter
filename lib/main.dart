@@ -9,7 +9,6 @@ class MyApp extends StatelessWidget  {
     // TODO: implement build
    return MaterialApp(
      home: Scaffold(
-
      appBar: AppBar(
        title: Text('Flutter App'),
      ),

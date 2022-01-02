@@ -15,12 +15,10 @@ class _MyHomePageState extends State<MyAppWidget>{
     // TODO: implement build
     return MaterialApp(
       home: Scaffold(
-
       appBar: AppBar(
         title: Text("Flutter"),
       ),
       body: Row(
-
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children:<Widget> [
           Container(
@@ -32,8 +30,6 @@ class _MyHomePageState extends State<MyAppWidget>{
             ),
             child: Text("Android",style: TextStyle(color: Colors.black,fontSize: 30),),
           ),
-
-
           Container(
             margin: EdgeInsets.all(10),
             padding: EdgeInsets.all(8),
